@@ -1,0 +1,18 @@
+.App {
+  text-align: center;  
+}
+
+.background-image {
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .background-image {
+    background: top;
+  }
+	
+}
